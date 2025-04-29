@@ -1,0 +1,60 @@
+===============================
+Dataset Information
+===============================
+- Name: Adyan: A High-Quality Automated NER Dataset for Sorani Kurdish
+- Version: 1.0
+- Release Date: 2025
+- Language: Kurdish Sorani
+- Size: 641,871 tokens, 24,820 sentences
+- Format: txt
+
+===============================
+Data Collection
+===============================
+- Source: Chanel8 (www.channel8.tv)
+          Rudaw (www.rudaw.net)
+          Avanews (www.avanews.com)
+	  NRT (www.nrttv.com)
+	  Kurdsatnews (www.kurdsat.tv)
+- Period: 2024
+- Categories: Political, Economy, Sport, Culture, Interview, Technology
+
+===============================
+Annotation Schema
+===============================
+Entity Types:
+- PERSON: Individual names, including full names and possibly nicknames where applicable.
+- COUNTRY: Names of countries, both current and historical.
+- CURRENCY: Names of currencies.
+- DAY: Days of the week.
+- EQUIPMENT: Names of tools, devices, or any form of equipment.
+- EVENT: Names of specific events, including historical, cultural, or significant local events.
+- LOCATION: Geographic locations including cities, regions, and specific places.
+- ORGANIZATION: Companies, institutions, and any formal groups.
+- MONTH: Months of the year.
+- POLITICAL_PARTY: Names of political parties.
+- POSITION: Job titles, roles, or any position within an organization.
+- RELIGION: Names of religions.
+- SPORT: SPORT: Names of sports teams.
+- SEASON: Names of seasons, e.g., Spring, Summer, Autumn, Winter.
+- MISCELLANEOUS: Other named entities not covered by the above categories, including historical figures, scientific terms, unique names, and drugs.
+
+BIO Tagging:
+- B-[TYPE]: Beginning of entity
+- I-[TYPE]: Inside entity
+- O: Outside (not an entity)
+
+===============================
+Usage
+===============================
+- Research and academic use permitted
+- Modification allowed with attribution
+
+===============================
+Contact
+===============================
+Research Team: 
+- [Chovyan Wahed]
+- [Rebwar Nabi]
+Institution: [Charmo University,Sulaimani Polytechnic University]
+Email: [chovyan.hekmat@chu.edu.iq , rebwar.nabi@kti.edu.iq]
